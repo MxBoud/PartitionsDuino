@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:.."
+      name = "..">
+      <Group
+         location = "group:PartitionsDuinoTests"
+         name = "PartitionsDuinoTests">
+         <FileRef
+            location = "group:PartitionsDuinoTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:PartitionsDuinoUITests"
+         name = "PartitionsDuinoUITests">
+         <FileRef
+            location = "group:PartitionsDuinoUITests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:PartitionsDuino.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Frameworks"
+         name = "Frameworks">
+         <Group
+            location = "group:ORSSerialPort"
+            name = "ORSSerialPort">
+            <Group
+               location = "group:Framework Project"
+               name = "Framework Project">
+               <FileRef
+                  location = "group:ORSSerial.h">
+               </FileRef>
+               <Group
+                  location = "group:ORSSerialPort Tests"
+                  name = "ORSSerialPort Tests">
+                  <FileRef
+                     location = "group:ORSSerialPacketDescriptor_Tests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ORSSerialPort_Tests.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:ORSSerialPort.xcodeproj">
+               </FileRef>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:ORSSerialPort.podspec">
+            </FileRef>
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:CHANGELOG.md">
+            </FileRef>
+            <Group
+               location = "group:Source"
+               name = "Source">
+               <FileRef
+                  location = "group:ORSSerialPacketDescriptor.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ORSSerialPort.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ORSSerialBuffer.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ORSSerialRequest.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ORSSerialPortManager.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ORSSerialPort.m">
+               </FileRef>
+               <FileRef
+                  location = "group:ORSSerialPacketDescriptor.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ORSSerialBuffer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ORSSerialRequest.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ORSSerialPortManager.h">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <FileRef
+               location = "group:CONTRIBUTING.md">
+            </FileRef>
+            <Group
+               location = "group:Examples"
+               name = "Examples">
+               <Group
+                  location = "group:RequestResponseDemo"
+                  name = "RequestResponseDemo">
+                  <FileRef
+                     location = "group:README.md">
+                  </FileRef>
+                  <Group
+                     location = "group:Swift"
+                     name = "Swift">
+                     <FileRef
+                        location = "group:RequestResponseDemo.xcodeproj">
+                     </FileRef>
+                     <Group
+                        location = "group:Resources"
+                        name = "Resources">
+                        <FileRef
+                           location = "group:Main.storyboard">
+                        </FileRef>
+                        <Group
+                           location = "group:Images.xcassets"
+                           name = "Images.xcassets">
+                           <Group
+                              location = "group:AppIcon.appiconset"
+                              name = "AppIcon.appiconset">
+                              <FileRef
+                                 location = "group:Contents.json">
+                              </FileRef>
+                           </Group>
+                        </Group>
+                        <FileRef
+                           location = "group:Info.plist">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:Sources"
+                        name = "Sources">
+                        <FileRef
+                           location = "group:MainViewController.swift">
+                        </FileRef>
+                        <FileRef
+                           location = "group:TemperaturePlotView.swift">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SerialBoardController.swift">
+                        </FileRef>
+                        <FileRef
+                           location = "group:AppDelegate.swift">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <Group
+                     location = "group:Objective-C"
+                     name = "Objective-C">
+                     <FileRef
+                        location = "group:RequestResponseDemo.xcodeproj">
+                     </FileRef>
+                     <Group
+                        location = "group:Resources"
+                        name = "Resources">
+                        <FileRef
+                           location = "group:Main.storyboard">
+                        </FileRef>
+                        <Group
+                           location = "group:Images.xcassets"
+                           name = "Images.xcassets">
+                           <Group
+                              location = "group:AppIcon.appiconset"
+                              name = "AppIcon.appiconset">
+                              <FileRef
+                                 location = "group:Contents.json">
+                              </FileRef>
+                           </Group>
+                        </Group>
+                        <FileRef
+                           location = "group:Info.plist">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:Sources"
+                        name = "Sources">
+                        <FileRef
+                           location = "group:ORSMainViewController.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSSerialBoardController.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSTemperaturePlotView.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSAppDelegate.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSMainWindowController.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSMainViewController.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:main.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSSerialBoardController.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSAppDelegate.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSTemperaturePlotView.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSMainWindowController.h">
+                        </FileRef>
+                     </Group>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:CommandLineDemo"
+                  name = "CommandLineDemo">
+                  <FileRef
+                     location = "group:README.md">
+                  </FileRef>
+                  <Group
+                     location = "group:Swift"
+                     name = "Swift">
+                     <FileRef
+                        location = "group:CommandLineDemo.xcodeproj">
+                     </FileRef>
+                     <Group
+                        location = "group:Sources"
+                        name = "Sources">
+                        <FileRef
+                           location = "group:CommandLineDemo-Bridging-Header.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:main.swift">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <Group
+                     location = "group:Objective-C"
+                     name = "Objective-C">
+                     <FileRef
+                        location = "group:CommandLineDemo.xcodeproj">
+                     </FileRef>
+                     <Group
+                        location = "group:Sources"
+                        name = "Sources">
+                        <FileRef
+                           location = "group:main.m">
+                        </FileRef>
+                     </Group>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:PacketParsingDemo"
+                  name = "PacketParsingDemo">
+                  <FileRef
+                     location = "group:README.md">
+                  </FileRef>
+                  <Group
+                     location = "group:Swift"
+                     name = "Swift">
+                     <FileRef
+                        location = "group:PacketParsingDemo.xcodeproj">
+                     </FileRef>
+                     <Group
+                        location = "group:Resources"
+                        name = "Resources">
+                        <Group
+                           location = "group:Base.lproj"
+                           name = "Base.lproj">
+                           <FileRef
+                              location = "group:Main.storyboard">
+                           </FileRef>
+                        </Group>
+                        <Group
+                           location = "group:Images.xcassets"
+                           name = "Images.xcassets">
+                           <Group
+                              location = "group:AppIcon.appiconset"
+                              name = "AppIcon.appiconset">
+                              <FileRef
+                                 location = "group:Contents.json">
+                              </FileRef>
+                           </Group>
+                        </Group>
+                        <FileRef
+                           location = "group:Info.plist">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:Sources"
+                        name = "Sources">
+                        <FileRef
+                           location = "group:MainViewController.swift">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SerialCommunicator.swift">
+                        </FileRef>
+                        <FileRef
+                           location = "group:AppDelegate.swift">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <Group
+                     location = "group:Objective-C"
+                     name = "Objective-C">
+                     <FileRef
+                        location = "group:PacketParsingDemo.xcodeproj">
+                     </FileRef>
+                     <Group
+                        location = "group:Resources"
+                        name = "Resources">
+                        <Group
+                           location = "group:Base.lproj"
+                           name = "Base.lproj">
+                           <FileRef
+                              location = "group:Main.storyboard">
+                           </FileRef>
+                        </Group>
+                        <Group
+                           location = "group:Images.xcassets"
+                           name = "Images.xcassets">
+                           <Group
+                              location = "group:AppIcon.appiconset"
+                              name = "AppIcon.appiconset">
+                              <FileRef
+                                 location = "group:Contents.json">
+                              </FileRef>
+                           </Group>
+                        </Group>
+                        <FileRef
+                           location = "group:Info.plist">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:Sources"
+                        name = "Sources">
+                        <FileRef
+                           location = "group:ORSMainViewController.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSAppDelegate.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSSerialCommunicator.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSMainViewController.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:main.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSAppDelegate.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSSerialCommunicator.h">
+                        </FileRef>
+                     </Group>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:ORSSerialPortDemo"
+                  name = "ORSSerialPortDemo">
+                  <FileRef
+                     location = "group:README.md">
+                  </FileRef>
+                  <Group
+                     location = "group:Swift"
+                     name = "Swift">
+                     <Group
+                        location = "group:Resources"
+                        name = "Resources">
+                        <Group
+                           location = "group:Images.xcassets"
+                           name = "Images.xcassets">
+                           <Group
+                              location = "group:AppIcon.appiconset"
+                              name = "AppIcon.appiconset">
+                              <FileRef
+                                 location = "group:Contents.json">
+                              </FileRef>
+                           </Group>
+                        </Group>
+                        <FileRef
+                           location = "group:MainMenu.xib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Info.plist">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:ORSSerialPortDemo.xcodeproj">
+                     </FileRef>
+                     <Group
+                        location = "group:Sources"
+                        name = "Sources">
+                        <FileRef
+                           location = "group:ORSSerialPortDemo-Bridging-Header.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:AppDelegate.swift">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SerialPortDemoController.swift">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <Group
+                     location = "group:Objective-C"
+                     name = "Objective-C">
+                     <Group
+                        location = "group:Resources"
+                        name = "Resources">
+                        <Group
+                           location = "group:en.lproj"
+                           name = "en.lproj">
+                           <FileRef
+                              location = "group:InfoPlist.strings">
+                           </FileRef>
+                           <FileRef
+                              location = "group:Credits.rtf">
+                           </FileRef>
+                           <FileRef
+                              location = "group:MainMenu.xib">
+                           </FileRef>
+                        </Group>
+                        <FileRef
+                           location = "group:ORSSerialPortDemo-Info.plist">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:ORSSerialPortDemo.xcodeproj">
+                     </FileRef>
+                     <Group
+                        location = "group:Sources"
+                        name = "Sources">
+                        <FileRef
+                           location = "group:ORSSerialPortDemoController.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSAppDelegate.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:main.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSSerialPortDemoController.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ORSAppDelegate.m">
+                        </FileRef>
+                     </Group>
+                  </Group>
+               </Group>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:PartitionsDuino"
+         name = "PartitionsDuino">
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Cereal.swift">
+         </FileRef>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Supporting files"
+            name = "Supporting files">
+            <FileRef
+               location = "group:PartitionsDuino.entitlements">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:AppDelegate.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "container:">
+   </FileRef>
+</Workspace>
