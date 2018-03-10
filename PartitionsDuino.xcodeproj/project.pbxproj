@@ -21,11 +21,9 @@
 		B111213A2010117600D966A6 /* ORSSerial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11121392010113F00D966A6 /* ORSSerial.framework */; };
 		B111213B2010117A00D966A6 /* ORSSerial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11121392010113F00D966A6 /* ORSSerial.framework */; };
 		B15BAA8F201E093900CA58BE /* ORSSerial.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B11121392010113F00D966A6 /* ORSSerial.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B1832859201E6AAA0032A43C /* SPortDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1832858201E6AAA0032A43C /* SPortDelegate.swift */; };
 		B1AD8C3B204F57BA00B1CE0F /* PDFViewSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AD8C3A204F57BA00B1CE0F /* PDFViewSC.swift */; };
 		B1BE8B5E201A0BFF002A6C73 /* PartitionsDuino.app in Resources */ = {isa = PBXBuildFile; fileRef = B11120BF200EC22200D966A6 /* PartitionsDuino.app */; };
 		B1BE8B5F201A0C00002A6C73 /* PartitionsDuino.app in Resources */ = {isa = PBXBuildFile; fileRef = B11120BF200EC22200D966A6 /* PartitionsDuino.app */; };
-		B1C8CED92018152C00D82251 /* Cereal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8CED82018152C00D82251 /* Cereal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,9 +72,7 @@
 		B11120E0200EC22300D966A6 /* PartitionsDuinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionsDuinoUITests.swift; sourceTree = "<group>"; };
 		B11120E2200EC22300D966A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B11121392010113F00D966A6 /* ORSSerial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ORSSerial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1832858201E6AAA0032A43C /* SPortDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPortDelegate.swift; sourceTree = "<group>"; };
 		B1AD8C3A204F57BA00B1CE0F /* PDFViewSC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewSC.swift; sourceTree = "<group>"; };
-		B1C8CED82018152C00D82251 /* Cereal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cereal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,9 +129,7 @@
 				B11121372010113F00D966A6 /* Frameworks */,
 				B1F0EAFC2018089B00D2C22D /* Supporting files */,
 				B11120C4200EC22200D966A6 /* ViewController.swift */,
-				B1AD8C3A204F57BA00B1CE0F /* PDFViewSC.swift */,
 				B11120C8200EC22200D966A6 /* Main.storyboard */,
-				B1832858201E6AAA0032A43C /* SPortDelegate.swift */,
 			);
 			path = PartitionsDuino;
 			sourceTree = "<group>";
@@ -171,9 +165,9 @@
 		B1F0EAFC2018089B00D2C22D /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
-				B1C8CED82018152C00D82251 /* Cereal.swift */,
-				B11120C2200EC22200D966A6 /* AppDelegate.swift */,
+				B1AD8C3A204F57BA00B1CE0F /* PDFViewSC.swift */,
 				B11120C6200EC22200D966A6 /* Assets.xcassets */,
+				B11120C2200EC22200D966A6 /* AppDelegate.swift */,
 				B11120CC200EC22200D966A6 /* PartitionsDuino.entitlements */,
 			);
 			path = "Supporting files";
@@ -317,9 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1C8CED92018152C00D82251 /* Cereal.swift in Sources */,
 				B1AD8C3B204F57BA00B1CE0F /* PDFViewSC.swift in Sources */,
-				B1832859201E6AAA0032A43C /* SPortDelegate.swift in Sources */,
 				B11120C5200EC22200D966A6 /* ViewController.swift in Sources */,
 				B11120C3200EC22200D966A6 /* AppDelegate.swift in Sources */,
 			);
