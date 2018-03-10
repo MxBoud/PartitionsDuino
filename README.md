@@ -25,6 +25,7 @@ Note: the part list is not price optimized. You should probably order parts from
 10. [USB to mini USB cable (long enough for the purpose of this pedal)][13]
 
 ### Links for the 3d model
+You can download the STL files from Thingiverse or access the [Fusion 360 file here][14]. 
 
 ### Circuit schematics 
 
@@ -50,5 +51,6 @@ PartitionsDuino uses the [ORSSerialPort][2] framework.
 [9]: https://www.amazon.ca/LANIAKEA-Socket-Stainless-Storage-Organizer/dp/B075JDZ413/ref=sr_1_18?s=hi&ie=UTF8&qid=1520712003&sr=1-18&keywords=m4+screw
 [10]: https://www.amazon.ca/Hilitchi-360pcs-Female-Standoff-Assortment/dp/B013ZWM1F6/ref=sr_1_2?s=hi&ie=UTF8&qid=1520712188&sr=1-2&keywords=M2+brass+spacer
 [11]: https://www.amazon.ca/Self-Adhesive-Feet-Door-Furniture-Bumpers-Clear-Cylindrical/dp/B01FQHUJWU/ref=sr_1_2?s=hi&ie=UTF8&qid=1520712257&sr=1-2&keywords=adhesive+surface+saver
-[12]: to do 
+[12]: https://www.thingiverse.com/thing:2821565
 [13]: https://www.amazon.ca/AmazonBasics-USB-2-0-Cable-Male/dp/B00NH11N5A/ref=sr_1_4?s=electronics&ie=UTF8&qid=1520712392&sr=1-4&keywords=Usb+mini+cable
+[14]: http://a360.co/2IdPVL7
