@@ -28,6 +28,7 @@ Note: the part list is not price optimized. You should probably order parts from
 You can download the STL files from [Thingiverse][12] or access the [Fusion 360 file here][14]. 
 
 ### Circuit schematics 
+Not done yet. 
 
 ## Setup instructions
 ### PartitionsDuino macOS app 
